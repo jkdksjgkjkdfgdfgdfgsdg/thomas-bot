@@ -301,9 +301,9 @@ else return false;
 }
 
    client.on('voiceStateUpdate', (codes, ReBeL) => {
-if(ReBeL.voiceChannelID !== "501717467912208394") return console.log("أيرور . ");
+if(ReBeL.voiceChannelID !== "508017475053420553") return console.log("أيرور . ");
 ReBeL.guild.createChannel(ReBeL.user.username , 'voice').then((rebeeel) =>{
-    rebeeel.setParent("475214008685690883");
+    rebeeel.setParent("508017119250612224");
 ReBeL.guild.members.get(ReBeL.id).setVoiceChannel(rebeeel.id).then((codess) =>{
   console.log("تــــــم .");
   let scan = setInterval(()=>{
@@ -392,7 +392,11 @@ for(let i = 0; i < KinG66S[member.user.id].roles.length + 1; i++) {
 member.addRole(KinG66S[member.user.id].roles.shift());
 }
 });
-
-
+//-----------------------------------------------------------------------------------------------------//
+                                            //كود اوتو رول//
+//-----------------------------------------------------------------------------------------------------//
+client.on('guildMemberAdd', (member) => {
+member.addRole(member.guild.roles.find('name', 'Member'));
+});
 
 	client.login(process.env.BOT_TOKEN);
