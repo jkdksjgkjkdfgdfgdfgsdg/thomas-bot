@@ -1,402 +1,1496 @@
-const Discord = require("discord.js");
-const { Client, Util } = require('discord.js');
-const queue = new Map();
-const fs = require("fs");
-const ms = require('ms');
-const cool = [];
+const Discord = require('discord.js');
 const client = new Discord.Client();
 
+client.on('ready', () => {
+  client.user.setGame(`مطلوب حسابات دسكورد التواصل خاص`,"http://twitch.tv/S-F")
+  console.log(`Logged in as ${client.user.tag}!`);
+});
+// 1
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 2
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698113343389698";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 3
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698125221527553";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 4
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698139721367574";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 5
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698153839263765";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 6
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698167860690991";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 7
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698180452253707";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 8
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698194314297344";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 9
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698205026418718";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 10
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698227835305984";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 11
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499702409807790080";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 12
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499742479709634615";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 13
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499746526952947713";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 14
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499746543234973696";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 15
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500244680785526785";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 16
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500244697881772042";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 17
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500244710435061762";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 18
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500244741951193088";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 19
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500244762293698560";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 20
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500244804454711296";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 21
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500294575227928595";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 22
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500294643557072918";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 23
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500294654969905152";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 24
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500294666143531008";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 25
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500294683642167307";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 26
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500675488763740161";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
 /*
-البكجآت
-npm install discord.js
-npm install ytdl-core
-npm install get-youtube-id
-npm install youtube-info
-npm install simple-youtube-api
-npm install queue
+// 27
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "501102228933705760";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 28
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "id";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 29
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "id";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 30
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "id";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+*/
+// 31
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "504446604393054218";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 32
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273030923124747";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 33
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273044634173442";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 34
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273060883169300";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 35
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273085306470410";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 36
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273101110738954";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+/*
+// 37
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "id";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+*/
+// 38
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273130902749185";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 39
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273152306151434";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 40
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505639285156872192";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 41
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273188834607104";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+
+// 42
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273197948698634";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+
+// 43
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273208941838360";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+
+// 44
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273218362245121";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+/*
+// 45
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+
+// 46
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+
+// 47
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+
+// 48
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 49
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 50
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 51
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 52
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 53
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 54
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 55
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 56
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 57
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 58
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 59
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 60
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 61
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 62
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 63
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 64
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 65
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 66
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 67
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 68
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 69
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 70
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 71
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 72
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 73
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 74
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 75
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 76
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 77
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 78
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 79
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 80
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+*/
+//
+//              Clear
+//
+// 1
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 2
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698113343389698";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 3
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698125221527553";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 4
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698139721367574";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 5
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698153839263765";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 6
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698167860690991";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 7
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698180452253707";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 8
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698194314297344";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 9
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698205026418718";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 10
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698227835305984";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 11
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499702409807790080";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 12
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499742479709634615";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 13
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499746526952947713";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 14
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499746543234973696";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 15
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500244680785526785";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 16
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500244697881772042";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 17
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500244710435061762";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 18
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500244741951193088";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 19
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500244762293698560";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 20
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500244804454711296";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 21
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500294575227928595";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 22
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500294643557072918";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 23
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500294654969905152";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 24
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500294666143531008";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 25
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500294683642167307";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 26
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "500675488763740161";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+/*
+// 27
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "501102228933705760";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 28
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "id";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 29
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "id";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 30
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "id";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+*/
+// 31
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "504446604393054218";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 32
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273030923124747";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 33
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273044634173442";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 34
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273060883169300";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 35
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273085306470410";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 36
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273101110738954";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+/*
+// 37
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "id";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+*/
+// 38
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273130902749185";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 39
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273152306151434";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 40
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505639285156872192";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+// 41
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273188834607104";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+
+// 42
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273197948698634";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+
+// 43
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273208941838360";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+
+// 44
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "505273218362245121";
+client.guilds.get(server).channels.get(channel).send('!say c')
+}
+});
+/*
+// 45
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+
+// 46
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+
+// 47
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+
+// 48
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 49
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 50
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 51
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 52
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 53
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 54
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 55
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 56
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 57
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 58
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 59
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 60
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 61
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 62
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 63
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 64
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 65
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 66
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 67
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 68
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 69
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 70
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 71
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 72
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 73
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 74
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 75
+client.on('message', message => {
+if (message.content.startsWith('clear')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 76
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 77
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 78
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 79
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
+// 80
+client.on('message', message => {
+if (message.content.startsWith('clients')) { 
+ if (message.author.id !== '501376527251013661') return; 
+var server = "497502071218503721"; 
+var channel = "499698100282195989";
+client.guilds.get(server).channels.get(channel).send('!say 1')
+}
+});
 */
 
-client.on('ready',  () => {
-  console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-  console.log('by Thomas');
-  console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-  console.log(`Logged in as  * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
-  console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-  console.log('is online')
+/*
+client.on('guildMemberAdd', member => {
+var server = "505503857208459264"; 
+var channel = "505526727108198411";
+client.guilds.get(server).channels.get(channel).send('**Welcome To Stúning Server ... **')
 });
 
-const prefix = "!"
 
-
-//-----------------------------------------------------------------------------------------------------//
-                                                 //كود الهلب//
-//-----------------------------------------------------------------------------------------------------//
-
-  client.on('message', message => {//help msg
-  if (message.author.bot) return;
-   if (message.content === prefix + "help") {
-      message.react("☑") 
-   
-      message.author.sendMessage(`**شكرا لك لاستعمال البوت**
-
-      __**الاوامر الادارية :gear:**__
-
-❖${prefix}**bc ** ==>**لارسال رسالة لكل الاعضاء**
-❖${prefix}**kick ** ==>**لطرد شخص من السيرفر**
-❖${prefix}**ban ** ==>**لحصر شخص من السيرفر**
-❖${prefix}**mute ** ==>**لاسكات عضو في السيرفر**
-❖${prefix}**unmute ** ==>**لفك الاسكات عن عضو في السيرفر**
-❖${prefix}**mutechannel ** ==>**لإيقاف شات الروم**
-❖${prefix}**unmutechannel ** ==>**لفك إيقاف شات الروم**
-❖${prefix}**clear ** ==>**لمسح كل رسائل الشات**
-
-
-`);
-
-}
+client.on('guildMemberAdd', (member) => {
+member.addRole(member.guild.roles.find('name', 'thomas'));
 });
-
-//-----------------------------------------------------------------------------------------------------//
-                                             //كود برود كاست//
-//-----------------------------------------------------------------------------------------------------//
-
-client.on('message', message => {
-        if (message.author.id === client.user.id) return;
-        if (message.guild) {
-       let embed = new Discord.RichEmbed()
-        let args = message.content.split(' ').slice(1).join(' ');
-    if(message.content.split(' ')[0] == prefix + 'bc') {
-        if (!args[1]) {
-    message.channel.send("**!bc <message>**");
-    return;
-    }
-            message.guild.members.forEach(m => {
-       if(!message.member.hasPermission('ADMINISTRATOR')) return;
-                var bc = new Discord.RichEmbed()
-                .addField('» السيرفر :', `${message.guild.name}`)
-                .addField('» المرسل : ', `${message.author.username}#${message.author.discriminator}`)
-                .addField(' » الرسالة : ', args)
-                .setColor('#ff0000')
-                // m.send(`[${m}]`);
-                m.send(`${m}`,{embed: bc});
-            });
-                const AziRo = new Discord.RichEmbed()
-        .setAuthor(message.author.username, message.author.avatarURL)   
-        .setTitle('✔️ | جاري ارسال رسالتك ') 
-        .addBlankField(true)
-        .addField('👥 | عدد الاعضاء المرسل لهم ', message.guild.memberCount , true)        
-        .addField('📋| الرسالة ', args)
-        .setColor('RANDOM')  
-        message.channel.sendEmbed(AziRo);          
-        }
-         
-        } else {
-            return;
-        }
-    });
-
-//-----------------------------------------------------------------------------------------------------//
-                                               //كود الترحيب//
-//-----------------------------------------------------------------------------------------------------//
-
-//-----------------------------------------------------------------------------------------------------//
-                                                 //كود اللوق//
-//-----------------------------------------------------------------------------------------------------//
-client.on('messageDelete', message => {
-    if (!message || !message.id || !message.content || !message.guild || message.author.bot) return;
-    const channel = message.guild.channels.find('name', 'log');
-    if (!channel) return;
-    
-    let embed = new Discord.RichEmbed()
-       .setAuthor(`${message.author.tag}`, message.author.avatarURL)
-       .setColor('BLACK')
-       .setDescription(`🗑️ **حذف رساله**
-**ارسلها <@${message.author.id}>                                                                                                                        تم حذفها في شات** <#${message.channel.id}>\n\n \`${message.cleanContent}\``)
-       .setTimestamp();
-     channel.send({embed:embed});
-
-});
-
-//-----------------------------------------------------------------------------------------------------//
-                                           //كود مسح الشات//
-//-----------------------------------------------------------------------------------------------------//
-
-client.on('message', function(message) {
-    if (message.content == prefix + "clear") {
-        if (message.member.hasPermission("MANAGE_MESSAGES")) {
-            message.channel.fetchMessages()
-               .then(function(list){
-                    message.channel.bulkDelete(list);
-                }, function(err){message.channel.send("ERROR: ERROR CLEARING CHANNEL.")})
-        }
-    }
-
-});
- 
-//-----------------------------------------------------------------------------------------------------//
-                                                  //كود ريستارت//
-//-----------------------------------------------------------------------------------------------------//
-
-  client.on('message',async message => {
-    if(message.content.startsWith(prefix + "restart")) {
-        if(message.author.id !== "501376527251013661") return message.reply('You aren\'t the bot owner.');
-        message.channel.send('**Restarting.**').then(msg => {
-            setTimeout(() => {
-               msg.edit('**Restarting..**');
-            },1000);
-            setTimeout(() => {
-               msg.edit('**Restarting...**');
-            },2000);
-        });
-        console.log(`${message.author.tag} [ ${message.author.id} ] has restarted the bot.`);
-        console.log(`Restarting..`);
-        setTimeout(() => {
-            client.destroy();
-            client.login(process.env.BOT_TOKEN); // token here
-        },3000);
-    }
-});
-
-//-----------------------------------------------------------------------------------------------------//
-                                              //كود الحالة//
-//-----------------------------------------------------------------------------------------------------//
-
-client.on('message', function(message) {
-	const myID = "501376527251013661";
-    let args = message.content.split(" ").slice(1).join(" ");
-    if(message.content.startsWith(prefix + "stream")) {
-		        if(message.author.id !== myID) return;
-            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
-        client.user.setGame(args , 'https://twitch.tv/6xlez1');
-        message.channel.send(':white_check_mark: Done!').then(msg => {
-           msg.delete(5000);
-          message.delete(5000);
-        });
-    } else if(message.content.startsWith(prefix + "play")) {
-				        if(message.author.id !== myID) return;
-            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
-        client.user.setGame(args);
-        message.channel.send(':white_check_mark: Done!').then(msg => {
-           msg.delete(5000);
-          message.delete(5000);
-        });
-    } else if(message.content.startsWith(prefix + "listen")) {
-				        if(message.author.id !== myID) return;
-            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
-        client.user.setActivity(args, {type:'LISTENING'});
-        message.channel.send(':white_check_mark: Done!').then(msg => {
-           msg.delete(5000);
-          message.delete(5000);
-        });
-    } else if(message.content.startsWith(prefix + "watch")) {
-				        if(message.author.id !== myID) return;
-            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
-        client.user.setActivity(args, {type:'WATCHING'});
-        message.channel.send(':white_check_mark: Done!').then(msg => {
-           msg.delete(5000);
-          message.delete(5000);
-        });
-    }
-});
-
-//-----------------------------------------------------------------------------------------------------//
-                                         //كود فتح و اقفال الشات//
-//-----------------------------------------------------------------------------------------------------//
-
-client.on('message', message => {
-
-
-if (message.content === prefix + "mutechannel") {
-if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('**You don’t have `Manage Messages` permissions**');
-           message.channel.overwritePermissions(message.guild.id, {
-         SEND_MESSAGES: false
-
-           }).then(() => {
-               message.reply("Channel Muted ✅ ")
-           });
-}
-  if (message.content === prefix + "unmutechannel") {
-if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('**You don’t have `Manage Messages` permissions**');
-           message.channel.overwritePermissions(message.guild.id, {
-         SEND_MESSAGES: true
-
-           }).then(() => {
-               message.reply("Channel UnMuted ✅ ")
-           });
-}
-  
-
-});
-
-//-----------------------------------------------------------------------------------------------------//
-                                                //كود الدعم//
-//-----------------------------------------------------------------------------------------------------//
-
-var prefix_2 = "-"
-client.on("message", (message) => {
-    
-    if (isCommand(message, "new")) {
-        const reason = message.content.split(" ").slice(1).join(" ");
-        if (!message.guild.roles.exists("name", "●⌠ Staff ⌡●")) return message.channel.send(`This server doesn't have a \`Support Team\` role made, so the ticket won't be opened.\nIf you are an administrator, make one with that name exactly and give it to users that should be able to see tickets.`);
-        if (message.guild.channels.exists("name", "ticket-" + message.author.id)) return message.channel.send(`You already have a ticket open.`);
-        message.guild.createChannel(`ticket-${message.author.id}`, "text").then(c => {
-            let role = message.guild.roles.find("name", "●⌠ Staff ⌡●");
-            let role2 = message.guild.roles.find("name", "@everyone");
-            c.overwritePermissions(role, {
-                SEND_MESSAGES: true,
-                READ_MESSAGES: true
-            });
-            c.overwritePermissions(role2, {
-                SEND_MESSAGES: false,
-                READ_MESSAGES: false
-            });
-            c.overwritePermissions(message.author, {
-                SEND_MESSAGES: true,
-                READ_MESSAGES: true
-            });
-            message.channel.send(`:white_check_mark: Your ticket has been created, #${c.name}.`);
-            const embed = new Discord.RichEmbed()
-                .setColor(0xCF40FA)
-                .addField(`Hey ${message.author.username}!`, `Please try explain why you opened this ticket with as much detail as possible. Our **Support Staff** will be here soon to help.`)
-                .setTimestamp();
-            c.send({
-                embed: embed
-            });
-        }).catch(console.error); 
-    }
-
-
-    if (isCommand(message, "close")) {
-        if (!message.channel.name.startsWith(`ticket-`)) return message.channel.send(`You can't use the close command outside of a ticket channel.`);
-
-        message.channel.send(`Are you sure? Once confirmed, you cannot reverse this action!\nTo confirm, type \`c\`. This will time out in 10 seconds and be cancelled.`)
-            .then((m) => {
-                message.channel.awaitMessages(response => response.content === 'c', {
-                        max: 1,
-                        time: 10000,
-                        errors: ['time'],
-                    })
-                    .then((collected) => {
-                        message.channel.delete();
-                    })
-                    .catch(() => {
-                        m.edit('Ticket close timed out, the ticket was not closed.').then(m2 => {
-                            m2.delete();
-                        }, 3000);
-                    });
-            });
-    }
-
-});
-
-//-----------------------------------------------------------------------------------------------------//
-                                            //كود روم مؤقت//
-//-----------------------------------------------------------------------------------------------------//
-
-isCommand=(message, input)=>{
-var args = message.content.slice(prefix_2.length).trim().split(/ +/g),
-command = args.shift().toLowerCase();
-if(command == input) return true;
-else return false;
-}
-
-   client.on('voiceStateUpdate', (codes, ReBeL) => {
-if(ReBeL.voiceChannelID !== "508017475053420553") return console.log("أيرور . ");
-ReBeL.guild.createChannel(ReBeL.user.username , 'voice').then((rebeeel) =>{
-    rebeeel.setParent("508017119250612224");
-ReBeL.guild.members.get(ReBeL.id).setVoiceChannel(rebeeel.id).then((codess) =>{
-  console.log("تــــــم .");
-  let scan = setInterval(()=>{
-if(!ReBeL.voiceChannel) {
-  rebeeel.delete();
-}
-  }, 1700);
-});
-});
-});
-
-//-----------------------------------------------------------------------------------------------------//
-                                                  //كود رين بو//
-//-----------------------------------------------------------------------------------------------------//
-
-client.on('ready', async () => {
-    let rSpeed = 4; 
-    let rGuild = '504414541644431390'; // اي دي السيرفر 
-    let rRole = '504663418456899584'; // اي دي الرتبة تجيبه عن طريق انك تفعل خاصية ان اي واحد يقدر يمنشن الرتبة و تمنشن الرتبة بالشات وقبل ما تمنشنها حط \
-    /* مثال :
-    \@TestingRole
-    الناتج :
-    <@&12345678987654321>
-    */
-    let rActive = true; /*
-    لتفعيل الرينبو حطها : true
-    لألغاء الرينبو حطها : false
-    */
-  rainbow(rSpeed, rGuild, rRole, rActive);
-  function rainbow(speed, guildid, roleid, enabled) {
-    if(enabled !== true && enabled !== false) throw new Error("SyntaxError: Rainbow enabled state must be true or false.");
-    if(enabled === false) return;
-    let guild = client.guilds.get(guildid);
-    let role = guild.roles.get(roleid);
-    let changeSpeed = speed * 1000;
-
-    setInterval(() => {
-      role.edit({
-        color: 'RANDOM'
-      });
-    }, changeSpeed);
-  }
-});
-
-//-----------------------------------------------------------------------------------------------------//
-                                      //كود اذا احد نشر يعطسه ميوت//
-//-----------------------------------------------------------------------------------------------------//
-
-client.on('message', message => {
-    if (message.content.includes('discord.gg')){      //شيل المسافه
-                        if(!message.channel.guild) return message.reply ('')
-                    if (!message.member.hasPermissions(['MANAGE_MESSAGES'])){
-       message.channel.send('kick <@' + message.author.id + '>')
-       message.delete() 
-       }
-    }
-          if (message.content.startsWith("kick ")) {
-             if(!message.member.hasPermission('ADMINISTRATOR')) return message.reply();
-             var member= message.mentions.members.first();
-             member.ban().then((member) => {
-                 message.channel.sendMessage("", {embed: {
-                 author: {
-                 },
-                 title: 'بسبب النشر ' + member.displayName + ' تم طرد',
-                 color: 490101,
-                 }
-               });
-           }
-         ) 
-       }
-   });
-   
-//-----------------------------------------------------------------------------------------------------//
-//كود لو معاك رتبة وطلعت من السيرفر ودخلت الرتبة بترجع تاني سواء كانت رتبة ادارية او حتي كانت رتبة ميوت//
-//-----------------------------------------------------------------------------------------------------//
-
-var KinG66S = {};
-client.on('guildMemberRemove', member => {
-KinG66S[member.id] = {roles: member.roles.array()};
-});
+*/
 
 client.on('guildMemberAdd', member => {
-if(!KinG66S[member.user.id]) return;
-console.log(KinG66S[member.user.id].roles.length);
-for(let i = 0; i < KinG66S[member.user.id].roles.length + 1; i++) {
-member.addRole(KinG66S[member.user.id].roles.shift());
-}
-});
-//-----------------------------------------------------------------------------------------------------//
-                                            //كود اوتو رول//
-//-----------------------------------------------------------------------------------------------------//
-client.on('guildMemberAdd', (member) => {
-member.addRole(member.guild.roles.find('name', 'Member'));
+    let SERVERID = '505503857208459264';
+    if (member.guild.id == SERVERID) {
+        client.guilds.get("505503857208459264").channels.get("505526727108198411").send(`**Welcome To Stúning . **`);
+    };
 });
 
 	client.login(process.env.BOT_TOKEN);
