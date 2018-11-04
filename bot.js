@@ -1482,7 +1482,7 @@ client.guilds.get(server).channels.get(channel).send('**Welcome To Stúning Serv
 
 
 client.on('guildMemberAdd', (member) => {
-member.addRole(member.guild.roles.find('name', 'thomas'));
+member.addRole(member.guild.roles.find('name', 'Member'));
 });
 */
 
