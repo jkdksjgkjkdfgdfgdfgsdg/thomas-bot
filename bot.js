@@ -1486,6 +1486,11 @@ member.addRole(member.guild.roles.find('name', 'Member'));
 });
 */
 
+client.on('guildMemberAdd', (member) => {
+member.addRole(member.guild.roles.find('name', 'Member'));
+});
+
+
 client.on('guildMemberAdd', member => {
     let SERVERID = '505503857208459264';
     if (member.guild.id == SERVERID) {
