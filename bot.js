@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
+/*
 client.on('ready', () => {
   client.user.setGame(`مطلوب حسابات دسكورد التواصل خاص`,"http://twitch.tv/S-F")
   console.log(`Logged in as ${client.user.tag}!`);
-});
+});*/
 // 1
 client.on('message', message => {
 if (message.content.startsWith('clients')) { 
